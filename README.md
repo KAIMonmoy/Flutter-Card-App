@@ -1,5 +1,5 @@
 # Pokemon Card app
 
-A Flutter application showing information about Snorlax.
+A Flutter App showing information about Snorlax.
 
-![UI Screenshot](images/ssUI.png)
+![UI Screenshot](images/ssUI.png | width = 300 | height = 400)
