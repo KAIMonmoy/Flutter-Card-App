@@ -14,7 +14,6 @@ class MyApp extends StatelessWidget {
               children: <Widget>[
                 CircleAvatar(
                   radius: 50,
-                  backgroundColor: Colors.red,
                   backgroundImage: AssetImage('images/snorlax.png'),
                 ),
                 Text(
@@ -23,8 +22,16 @@ class MyApp extends StatelessWidget {
                     fontSize: 40.0,
                     color: Colors.white,
                     fontWeight: FontWeight.bold,
+                    fontFamily: 'Pacifico',
                   ),
                 ),
+                Text(
+                  'NORMAL-TYPE POKEMON',
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 20.0,
+                  ),
+                )
               ],
             ),
           ),
